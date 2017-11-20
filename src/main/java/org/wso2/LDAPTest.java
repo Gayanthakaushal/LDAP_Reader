@@ -32,6 +32,9 @@ public class LDAPTest {
 
         System.out.println("Enter LDAP Search Base");
         String LDAP_SEARCH_BASE = sc.next();
+        
+        System.out.println("Keystore path");
+        String KEYSTORE = sc.next();
 
 
         if(args != null  && args.length == 2) {
